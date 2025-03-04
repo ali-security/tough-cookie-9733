@@ -5,7 +5,7 @@ node_js:
 - "v4.*"
 - "v10.*"
 - '10'
-- "v0.10.*"
+# - "v0.10.*"
 - "v8.*"
 matrix:
   fast_finish: true
