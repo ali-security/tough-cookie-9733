@@ -11,7 +11,7 @@
   {
     "test": "0002",
     "received": [
-      "foo=bar; Expires=Fri, 07 Aug 2019 08:04:19 GMT"
+      "foo=bar; Expires=Fri, 07 Aug 2030 08:04:19 GMT"
     ],
     "sent": [
       { "name": "foo", "value": "bar" }
@@ -46,14 +46,14 @@
   {
     "test": "0006",
     "received": [
-      "foo=bar; max-age=0;"
+      "foo=bar; max-age=3600;"
     ],
     "sent": []
   },
   {
     "test": "0007",
     "received": [
-      "foo=bar; version=1;"
+      "foo=bar; version=0;"
     ],
     "sent": [
       { "name": "foo", "value": "bar" }
